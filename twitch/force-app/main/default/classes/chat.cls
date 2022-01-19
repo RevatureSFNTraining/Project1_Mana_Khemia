@@ -1,7 +1,9 @@
 public with sharing class Chat {
-    public Chat(Id userId) {
-        User chatOwner = [SELECT Id FROM User WHERE Id LIKE :userId WITH SECURITY_ENFORCED];
-        List<ChatMessage> chatMessages = new List<ChatMessage>();
+    List<ChatMessage> chatMessages = new List<ChatMessage>();
+    User chatOwner = null;
+
+    public Chat(User owner) {
+        this.chatOwner = owner;
         chatMessages.add(new ChatMessage(null, System.now(), 'Chat initialized.'));
     }
 
@@ -24,7 +26,7 @@ public with sharing class Chat {
     public void deleteMessage(ChatMessage messageInfo) {
         Integer messageLocation = chatMessages.indexOf(messageInfo);
         if(messageLocation != -1) {
-            messageInfo.deleteMessage(messageInfo);
+            messageInfo.deleteMessage();
             chatMessages.set(messageLocation, messageInfo);
         } else {
             throw new MessageDoesNotExistException('Message to delete does not exist.');
