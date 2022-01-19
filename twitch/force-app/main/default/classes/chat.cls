@@ -1,4 +1,4 @@
-public without sharing class Chat {
+public with sharing class Chat {
     public Chat(Id userId) {
         User chatOwner = [SELECT Id FROM User WHERE Id LIKE :userId WITH SECURITY_ENFORCED];
         List<ChatMessage> chatMessages = new List<ChatMessage>();

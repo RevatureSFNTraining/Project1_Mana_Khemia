@@ -6,7 +6,6 @@ public without sharing class CalculateChatAnalytics {
 
 
     public void calculateAllStats() {
-
     }
 
     @future

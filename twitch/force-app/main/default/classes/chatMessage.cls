@@ -1,4 +1,4 @@
-public without sharing class ChatMessage {
+public inherit sharing class ChatMessage {
     public ChatMessage(User messageSender, Datetime messageTimestamp, String messageMessage) {
         if(message.length() > 500) {
             throw new MessageTooLongException('Message exceeds maximum length of 500 characters.');
