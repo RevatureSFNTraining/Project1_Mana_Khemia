@@ -1,0 +1,35 @@
+<template>
+
+    <div>
+        <!-- home page -->
+        <template if:true={homePage}>
+            <!-- <c-home-page></c-home-page> -->
+        </template>
+        
+        <!-- dashboards page -->
+        <template if:true={dashboardsPage}>
+            <c-dashboards-page></c-dashboards-page>
+        </template>
+
+        <!-- reports page -->
+        <template if:true={reportsPage}>
+            <!-- <c-reports-page></c-reports-page> -->
+        </template>
+
+        <!-- contact us page -->
+        <template if:true={contactUsPage}>
+            <c-contact-us-page></c-contact-us-page>
+        </template>
+
+        <!-- return policy page -->
+        <template if:true={returnPolicyPage}>
+            <c-return-policy-page></c-return-policy-page>
+        </template>
+
+        <!-- privacy/security policy page -->
+        <template if:true={privacyPolicyPage}>
+            <c-privacy-policy-page></c-privacy-policy-page>
+        </template>
+    </div>
+
+</template>

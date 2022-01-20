@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningMessageChannel>
+    <masterLabel>Page</masterLabel>
+    <isExposed>true</isExposed>
+    <description>This is a channel which is used by LWC component to send data</description>
+        <!-- Am creating two fields that will be eventually used to send data -->
+    <lightningMessageFields>
+        <description>This is the name of the page to render in the body</description>
+        <fieldName>pageName</fieldName>
+    </lightningMessageFields>
+</LightningMessageChannel>

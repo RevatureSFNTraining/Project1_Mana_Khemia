@@ -1,0 +1,21 @@
+<template>
+
+    <div class="toolbar">
+        <!-- Page Tab Links -->
+        <ul class="slds-button-group-row">
+            <li class="tabButton slds-button-group-item">
+                <lightning-button variant="brand" label="Home" title="Home Page" name="home" onclick={handleTabClick} class="slds-m-left_x-small"></lightning-button>
+            </li>
+            <li class="tabButton slds-button-group-item">
+                <lightning-button variant="brand" label="Dashboards" title="Dashboards Page" name="dashboards" onclick={handleTabClick} class="slds-m-left_x-small"></lightning-button>
+            </li>
+            <li class="tabButton slds-button-group-item">
+                <lightning-button variant="brand" label="Reports" title="Reports Page" name="reports" onclick={handleTabClick} class="slds-m-left_x-small"></lightning-button>
+            </li>
+            <li class="tabButton slds-button-group-item">
+                <lightning-button variant="brand" label="Contact Us" title="Contact Us Page" name="contactUs" onclick={handleTabClick} class="slds-m-left_x-small"></lightning-button>
+            </li>
+        </ul>
+    </div>
+
+</template>

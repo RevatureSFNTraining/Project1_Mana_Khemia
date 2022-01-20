@@ -1,0 +1,24 @@
+.title {
+    color: #0000cd;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.contactHeader {
+    color: #ff0000;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.header {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.indent {
+    margin-left: 1.5em;
+}
