@@ -1,0 +1,19 @@
+@import 'c/cssLibrary';
+
+.logo-W{
+    max-height: 100%;
+    align-items: center;
+}
+
+.logo-W img{
+    max-width: 4em;
+    height:auto;
+}
+
+.logo-W p{
+    font-size: 2.2em;
+}
+
+.logo-W p2{
+    font-size: 1.4em;
+}

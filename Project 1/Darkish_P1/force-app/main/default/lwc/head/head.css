@@ -1,0 +1,10 @@
+@import 'c/cssLibrary';
+
+input{
+    background-color: #498882;
+    border:hidden;
+    font-size: 1.5em;
+}
+input:hover{
+    color:white;
+}

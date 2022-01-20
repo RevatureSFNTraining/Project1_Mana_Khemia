@@ -1,0 +1,41 @@
+<template>
+    <div class="container">
+        <div class="slds-grid slds-grid_vertical">
+            <div class="bkg-black slds-grid">
+                <div class="slds-col slds-size_1-of-3 bkg-white "></div>
+                <div class="slds-col slds-size_1-of-3 slds-align-middle">
+                    <c-logo-full></c-logo-full>
+                </div>
+                <div class="slds-col slds-size_1-of-3 bkg-white"></div>
+            </div>
+            <div class="bkg-large bkg-white slds-grid img-swap">
+                <div class="slds-col slds-size_1-of-12"><img src={siteArrow}></div>
+                <div class="slds-col slds-size_3-of-12"><c-img-card avalability='unavaliable' price="$45.99" image={siteProduct1}></c-img-card></div>
+                <div class="slds-col slds-size_4-of-12"><c-img-card avalability='avaliable' price="$100" image={siteProduct2}></c-img-card></div>
+                <div class="slds-col slds-size_3-of-12"><c-img-card avalability='unavaliable' price="$45.99" image={siteProduct3}></c-img-card></div>
+                <div class="slds-col slds-size_1-of-12 img-90d"><img src={siteArrow}></div>
+            </div>
+        </div>
+        <div class="slds-grid slds-grid_vertical">
+            <div class="bkg-black buy-area">
+                <p>Want These Shirts?</p>
+                <button class="slds-button slds-button_brand buy-btn">Buy Now</button>
+            </div>
+            <div class="bkg-large bkg-white about">
+                <c-test-component></c-test-component>
+                
+            </div>
+            <div class="bkg-black icons">
+                <p>Social Media</p>
+                <div class="slds-grid">
+                    <img class="slds-col" src={siteFacebook}>
+                    <p class="slds-col">Facebook.com/link</p>
+                    <img class="slds-col" src={siteInstagram}>
+                    <p class="slds-col">Instagram.com/link</p>
+                    <img class="slds-col" src={siteTwitter}>
+                    <p class="slds-col">Twitter.com/link</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

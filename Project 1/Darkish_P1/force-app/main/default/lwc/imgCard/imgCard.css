@@ -1,0 +1,15 @@
+@import 'c/cssLibrary';
+
+.card{
+    max-width:20rem;
+    max-height:18rem;
+    border:#111111 solid 2px;
+    border-radius: 5%;
+}
+
+
+.card img{
+    max-height: 14rem;
+    width: auto;
+    padding-top:1rem;
+}

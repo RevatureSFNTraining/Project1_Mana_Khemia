@@ -1,0 +1,19 @@
+<template>
+    <div>
+        <c-head onchangedir={changeDir}></c-head>
+    </div>
+    <div if:true={showHome}>
+        <c-home></c-home>
+    </div>
+    <div if:true={showAbout}>
+        <c-about></c-about>
+    </div>
+    <div if:true={showShop}>
+        <c-shop></c-shop>
+    </div>
+    <div>
+        <div class="bkg-green footer">
+            <footer>Copyright &copy; Darkish Inc.</footer>
+        </div>
+    </div>
+</template>

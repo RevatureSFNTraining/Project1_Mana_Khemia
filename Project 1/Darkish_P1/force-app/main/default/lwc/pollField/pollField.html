@@ -1,0 +1,33 @@
+<template>
+    <div class = "webForm slds-grid">
+        <div class= "slds-col slds-align_absolute-center"> 
+            <form class=" slds-grid slds-grid_vertical" action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+                <input type=hidden name="orgid" value="00D5f0000090ZJ2">
+                <input type=hidden name="retURL" value="https://darkish-developer-edition.na163.force.com/vendor">
+                
+                <!--  ----------------------------------------------------------------------  -->
+                <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+                <!--  these lines if you wish to test in debug mode.                          -->
+                <!--  <input type="hidden" name="debug" value=1>                              -->
+                <!--  <input type="hidden" name="debugEmail"                                  -->
+                <!--  value="cj.bruce.clayten@gmail.com">                                     -->
+                <!--  ----------------------------------------------------------------------  -->
+                
+                <label class="slds-col" for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+                
+                <label class="slds-col" for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+                
+                <label class="slds-col" for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+                
+                Current Poll:<select class="slds-col" id="00N5f00000ascO8" name="00N5f00000ascO8" title="Current Poll"><option value="">--None--</option><option value="More Art Based Designs">More Art Based Designs</option>
+                <option value="More Image Based Designs">More Image Based Designs</option>
+                <option value="More Logo Based Designs">More Logo Based Designs</option>
+                </select><br>
+                
+                <input  class="slds-button slds-button_brand buy-btn" type="submit" name="submit">
+                
+            </form>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,21 @@
+<template>
+    <div class="container ">
+        <div class=" slds-grid slds-grid_vertical">
+        <div class="bkg-green slds-grid slds-grid_align-end ">
+            <div class="slds-size_2-of-3 logo-B slds-p-left_xx-large " ><img class="pointer" src={myLogo}></div>
+            <div class="slds-col slds-size_1-of-3 slds-grid slds-grid_align-end slds-gutters slds-p-right_xx-large header">
+                <div class='slds-col slds-align-middle'>
+                    <input class={homeActive} name="page_choice" type="button" value="Home" onclick={changeDir}>
+                </div>
+                <div class='slds-col slds-align-middle'>
+                    <input class={aboutActive} name="page_choice" type="button" value="Vendors" onclick={changeDir}>
+                </div>
+                <div class='slds-col slds-align-middle'>
+                    <input class={shopActive} name="page_choice" type="button" value="Polls" onclick={changeDir}>
+                </div>
+            
+            </div>
+        </div>
+        </div>
+    </div>
+</template>

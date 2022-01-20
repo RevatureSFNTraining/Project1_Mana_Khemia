@@ -1,0 +1,122 @@
+.container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:1.5em;
+    overflow: hidden; background-color: white;
+}
+
+.webForm{
+    background-color: #111111;
+    height: 86.5vh;
+}
+.webForm form{
+    background-color: white;
+    color: #111111;
+    border: solid 2px black;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.webForm input, option{
+    color:#111111;
+}
+
+
+.active{
+    color:white;
+}
+
+.bkg-black{
+    background-color: #111111;
+    height: 20rem;
+    color: white;
+}
+
+.bkg-green{
+    background-color: #498882;
+    height: 4rem;
+}
+
+.bkg-white{
+    background-color: white;
+}
+
+.bkg-large{
+    margin-top:2rem;
+    height: 20rem;
+}
+
+.logo-B{
+    max-height: 100%;
+}
+
+.logo-B img{
+    max-height: 100%;
+    width: auto;
+}
+
+
+
+.header {
+    height: 100%;
+}
+
+.img-swap{
+    max-height:100%;
+}
+
+.img-swap img{
+    
+    padding-top:2%;
+    max-height: 80%;
+    width: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+.img-90d img{
+    transform: rotate(180deg);
+}
+
+.buy-area{
+    text-align: center;
+}
+
+.buy-area p{
+    font-size: 2.2em;
+}
+
+.buy-btn{
+    background-color: #498882;
+    border-color: #498882;
+    font-size: 3em;
+    padding: .5em .25em;
+    color:#111111;
+}
+
+.about{
+    text-align: center;
+}
+
+.about p{
+    font-style:oblique;
+    font-size: 2.2em;
+}
+
+
+.icons{
+    text-align: center;
+}
+
+.icons p2{
+    font-size: 2.2em;
+}
+
+.icons img{
+    max-height: 4em;
+    max-width: 4em;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+}
