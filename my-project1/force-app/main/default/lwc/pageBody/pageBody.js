@@ -12,8 +12,8 @@ export default class PageBody extends LightningElement {
     body = "home";
 
     homePage = true;
-    dashboardsPage = false;
-    reportsPage = false;
+    contactsPage = false;
+    accountsPage = false;
     contactUsPage = false;
     returnPolicyPage = false;
     privacyPolicyPage = false;
@@ -47,56 +47,56 @@ export default class PageBody extends LightningElement {
         switch (this.body) {
             case 'home':
                 this.homePage = true;
-                this.dashboardsPage = false;
-                this.reportsPage = false;
+                this.contactsPage = false;
+                this.accountsPage = false;
                 this.contactUsPage = false;
                 this.returnPolicyPage = false;
                 this.privacyPolicyPage = false;
                 break;
-            case 'dashboards':
+            case 'contacts':
                 this.homePage = false;
-                this.dashboardsPage = true;
-                this.reportsPage = false;
+                this.contactsPage = true;
+                this.accountsPage = false;
                 this.contactUsPage = false;
                 this.returnPolicyPage = false;
                 this.privacyPolicyPage = false;
                 break;
-            case 'reports':
+            case 'accounts':
                 this.homePage = false;
-                this.dashboardsPage = false;
-                this.reportsPage = true;
+                this.contactsPage = false;
+                this.accountsPage = true;
                 this.contactUsPage = false;
                 this.returnPolicyPage = false;
                 this.privacyPolicyPage = false;
                 break;
             case 'contactUs':
                 this.homePage = false;
-                this.dashboardsPage = false;
-                this.reportsPage = false;
+                this.contactsPage = false;
+                this.accountsPage = false;
                 this.contactUsPage = true;
                 this.returnPolicyPage = false;
                 this.privacyPolicyPage = false;
                 break;
             case 'returnPolicy':
                 this.homePage = false;
-                this.dashboardsPage = false;
-                this.reportsPage = false;
+                this.contactsPage = false;
+                this.accountsPage = false;
                 this.contactUsPage = false;
                 this.returnPolicyPage = true;
                 this.privacyPolicyPage = false;
                 break;
             case 'privacyPolicy':
                 this.homePage = false;
-                this.dashboardsPage = false;
-                this.reportsPage = false;
+                this.contactsPage = false;
+                this.accountsPage = false;
                 this.contactUsPage = false;
                 this.returnPolicyPage = false;
                 this.privacyPolicyPage = true;
                 break;
             default:
                 this.homePage = true;
-                this.dashboardsPage = false;
-                this.reportsPage = false;
+                this.contactsPage = false;
+                this.accountsPage = false;
                 this.contactUsPage = false;
                 this.returnPolicyPage = false;
                 this.privacyPolicyPage = false;
