@@ -1,0 +1,35 @@
+<template>
+
+    <div><hr class="a"></div>
+  
+      <div class="flex-container">
+          <div>
+            <h3 class="KL">Killingworth Location</h3>
+            <p class="address">{result.Restaurant_address__c}<br/>
+              (1/2 mile South of Rts. 81 & 80 circle)</p>
+              <p class="phone"><b>Phone:</b> {result.Contact__c}</p>
+              <p class="phone"><b>Fax:</b> 860.663.3114</p>
+              <div>
+                <button class="slds-button slds-button_destructive getbtn">Get direction</button>
+              </div>
+          </div>
+          <lightning-map map-markers={mapMarkers1} zoom-level={zoomLevel}></lightning-map>
+         
+          </div> 
+          <div><hr></div>
+  
+        <div class="flex-container">
+          <div>
+            <h3 class="KL">Middletown Location</h3>
+            <p class="address">{result.Restaurant_address__c}<br/>
+              (In the heart of Downtown Middletown)</p>
+              <p class="phone"><b>Phone:</b>{result.Contact__c}</p>
+              <p class="phone"><b>Fax:</b> 860.343.0026</p>
+              <div>
+                <button class="slds-button slds-button_destructive getbtn">Get direction</button>
+              </div>
+          </div>
+          <lightning-map map-markers={mapMarkers2} zoom-level={zoomLevel}></lightning-map>
+         </div> 
+      
+  </template>

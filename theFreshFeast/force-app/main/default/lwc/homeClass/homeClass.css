@@ -1,0 +1,51 @@
+.foodImage{
+    width: 100%;
+}
+
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flex-container > div {
+    margin: 70px;
+    padding: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.contentImg{
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.KL{
+    line-height: 18px;
+    font-size: 16px;
+    color: #6a6141;
+    font-weight: normal;
+    font-style: italic;
+}
+.address, .phone{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 15px;
+}
+.getbtn{
+    font-size: 15px;
+}
+.divider{
+        display: inline-block;
+        border-left: 1px solid black;
+        margin: 0 10px;
+        height: 125px;
+}
+hr {
+    min-height: 100%;
+    max-height: 100vh;
+    margin: 0;
+}

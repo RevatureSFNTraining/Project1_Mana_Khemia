@@ -1,0 +1,70 @@
+*{
+    margin:0;
+}
+.header-wrapper{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-top: 10px;
+}
+
+.grid-item{
+    padding: 10px;
+    font-size: 15px;
+}
+.freshFoodTag{
+    font-size: 20px;
+    color: #b0091b;
+    font-family: 'Dancing Script', cursive;
+}
+.location{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 15px 0 0;
+}
+.loc{
+    border: 1px solid #b0091b;
+    padding: 5px;
+    border-radius: 10px;
+    width: 50%;   
+    background-color: #b0091b;
+    color: white; 
+    font-size: 15px;
+}
+.loctab{
+    padding: 5px;
+}
+.divbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 20px 0 0;
+}
+.btn{
+    width: 150px;
+    margin-left: 20px;
+    color:#b0091b;
+    border: 1px solid #b0091b;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #b0091b;
+    color: white !important;border: 1px solid white; 
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.flex-container > div {
+    margin: 70px;
+    padding: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.freshFoodTag{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+

@@ -1,0 +1,37 @@
+<template>
+
+  <!-- Header -->
+  <div class="header-wrapper">
+    <div class= "header">
+      <img src={image1}/>
+    </div>
+      <div class="tag">
+        <p class="freshFoodTag">{foodtag}</p>
+        <div class="location">
+          <td><div class="loctab"><span class="loc">CT - (860) 663 3113</span></div>
+          <td><div class="loctab"><span class="loc">CT - (860) 663 3114</span></div>
+        </div>
+      </div>
+  </div>
+
+  <!-- Buttons -->
+  <section>
+    <div class="slds-button-group divbtn" role="group">
+      <div>
+        <button name = "home" onclick={handleClick} class="slds-button slds-button_neutral btn">{Home}</button>
+      </div>
+      <div>
+        <button name = "menu" onclick={handleClick} class="slds-button slds-button_neutral btn">{ClassicMenu}</button>
+      </div>
+      <div>
+        <button name = "aboutus" onclick={handleClick} class="slds-button slds-button_neutral btn">{AboutUs}</button>
+      </div>
+      <div>
+        <button name = "contactus" onclick={handleClick} class="slds-button slds-button_neutral btn">{ContactUs}</button> 
+      </div>
+    </div>
+  </section>
+
+ 
+
+</template>
