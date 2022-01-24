@@ -1,9 +1,8 @@
-import { LightningElement, api, wire} from 'lwc';
+import { LightningElement, api, wire, track} from 'lwc';
 import Salesforce_Images from '@salesforce/resourceUrl/Logo';
 
 import { publish, MessageContext } from "lightning/messageService";
 import MY_CHANNEL from "@salesforce/messageChannel/MyMessageChannel__c";
-
 
 export default class HeaderClass extends LightningElement {
 

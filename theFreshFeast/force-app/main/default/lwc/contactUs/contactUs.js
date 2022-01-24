@@ -1,26 +1,6 @@
-import { LightningElement, api, wire } from 'lwc';
-import  getAccounts  from '@salesforce/apex/DataSendController.getAccounts';
-
+import { LightningElement, track } from 'lwc';
 
 export default class ContactUs extends LightningElement {
-
-    @api recordId;
-
-    @wire(getAccounts,{})
-    wiredRecord({data, error}){
-        console.log(data);
-        /*if(data){
-            const { fields } = data
-            object.keys(fields).forEach(item => {
-                let value = fields[item] && fields[item].displayValue ? fields[item].displayValue : fields[item].value;
-                this.result = { ...this.result, [item]: value}
-            })
-            console.log(JSON.stringify(data))
-        }
-        if(error){
-            console.log(error)
-        }*/
-    }
 
     mapMarkers1 = [
         {
