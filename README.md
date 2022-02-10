@@ -14,16 +14,18 @@ Utilizing the business identified and set up in P0 or choosing a new one, develo
 Additionally, the developer will need to provide an implementation of Sales & Service Cloud 
 -    This implementation should include the unique tools and capabilities of these cloud apps as a part of the orgs implementation. Including Assignment Rules, Auto-Response Rules, Escalation Rules, Campaigns, Products, and Price books. 
 
-Stretch Goals 
-Apex Testing
+## Stretch Goals 
+
+### Apex Testing
 -    Create comprehensive tests for the apex used in both triggers and apex controllers for LWC. 
 
-Data Visualization 
+### Data Visualization 
 -    Actionable reports and dashboards relating to the business the developer has chosen to model. 
 
-Deployment
+### Deployment
 -    Successfully deploy the experience site in addition to other customizations during the presentation.
-Presentation and Styling
+
+## Presentation and Styling
 The developer must ensure that the experience cloud site contains uniform customized styling to denote it as a polished and branded experience. Styling will require the use of CSS and leveraging SLDS with consistent styling for HTML elements. Additionally, the developer will be required to have the entire project on a GitHub repo and follow reasonable branching procedures. Finally, as part of the live demo, the developer will clone the master branch of the repo and push the customization to a fresh org. 
 
 The presentation will be given as part of a squad presentation, with each developer taking a turn to present and demo their particular solution to this project. As a result, the presentation will require teamwork and coordination to come across as a unified and polished endeavor, and take no longer than 5 minutes per squad member. 
